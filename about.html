@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand text-info">d dulaney designs</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="experience.html" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="personal.html" class="nav-link">Personal Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1 class="text-info">About Me</h1>
+          <p>I am a Front End Web Developer who loves learning, new challenges and being creative.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-3">
+    <div class="container">
+      <h1 class="pt-2">Dana Dulaney</h1>
+      <h1 class="text-info mb-5">Front End Web Developer</h1>
+      <div id="wrap">
+        <img src="img/tech.jpeg" class="rounded-circle img-fluid" alt="">
+        <p><span class="text-info">M</span><strong>y name is Dana and I am a Front End Web Developer. </strong>I
+          recently
+          graduated from Treehouse
+          with a Tech
+          Degree in Front End Web Developement. I have been a full time student since 2018
+          learning and studying all aspects of Front End Developement including:
+          HTML5, CSS3, CSS Grids, CSS animations, React, Redux, Ajax, Jquery, JavaScript/ES6, JSON, Fetch,
+          Axios,
+          Bootstrap 4, Materialize, NodeJS, Github, Command Line, Sass, Web Design, and Wordpress. I am currently
+          concetrating on
+          learning all aspects of React, coding vanilla JavaScript, and new techniques with CSS animations. I enjoy
+          building mobile first, resposive, interative websites and learning new techniques and ways to engage readers
+          in my websites.
+        </p>
+      </div>
+
+
+      <div id="wrap2">
+        <img src="img/myLogoBW.jpg" alt="" class="rounded-circle img-fluid">
+        <p><span class="text-info">I</span><strong>n addition to my Tech Degree from Treehouse</strong>, I have been
+          studying and
+          receiving Certificates
+          of
+          Completion from Udemy on-line school in Front End Web Developement. These
+          courses are comprehensive courses taught by Brad Traversy, and were a terrific way to learn and reinforce
+          complex languages, techniques, design ideas and ways to create professional websites. I watch a variety
+          of Traversy Media videos on YouTube and plan to continue
+          taking more courses throughout my career to further my knowledge and learn new
+          skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ICON BOXES -->
+  <section id="icon-boxes" class="mb-5 p-5">
+    <div id="boxes" class="container">
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="card bg-info text-white text-center">
+            <div class="card-body">
+              <i class="fab fa-html5 fa-3x"></i>
+              <h3>HTML 5</h3>
+              <p>The newest version of HTML, a markup language used for structuring and presenting content on the World
+                Wide
+                Web.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white text-center">
+            <div class="card-body">
+              <i class="fab fa-js fa-3x"></i>
+              <h3>JavaScript</h3>
+              <p>An object-oriented computer programming language that is commonly used to create interactive effects
+                within
+                web
+                browsers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-info text-white text-center">
+            <div class="card-body">
+              <i class="fab fa-css3 fa-3x"></i>
+              <h3>CSS 3</h3>
+              <p>The latest of the Cascading Style Sheets language that extends CSS2.
+                Studies also include CSS Grids and animations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <div class="card bg-dark text-white text-center">
+            <div class="card-body">
+              <i class="fab fa-react fa-3x"></i>
+              <h3>React</h3>
+              <p>New way to create interactive UIs. Design simple views for each state in your
+                application, and React will efficiently update and render the right components when your data
+                changes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-info text-white text-center">
+            <div class="card-body">
+              <i class="fas fa-laptop fa-3x"></i>
+              <h3>Jquery</h3>
+              <p>Fast, small, feature-rich JavaScript library that makes HTML
+                manipulation, event handling,and Ajax simpler with an easy-to-use API that works across
+                a multitude of browsers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white text-center">
+            <div class="card-body">
+              <i class="fas fa-bold fa-3x"></i>
+              <h3>Bootstrap</h3>
+              <p>The most popular HTML, CSS, and JS framework for developing responsive, mobile first
+                projects on the web. Bootstrap makes front-end web development faster and easier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADDITIONAL KNOWLEDGE SECTION -->
+  <section id="testimonials" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center text-info">Additional Knowledge in....</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Context API / Redux / Firebase / Firestore
+                </p>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  NodeJS / Web Design / ES6
+                </p>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Git / GitHub / Command Line
+                </p>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Fetch API / Ajax / JSON / Axios
+                </p>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Materialize / CSS grids / Wordpress
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> d dulaney designs</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <script src="js/about.js"></script>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
+  </script>
+</body>
+
+</html>
