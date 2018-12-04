@@ -399,7 +399,7 @@ li {
 }
 
 #tracks img{
-  height: 150px;
+  height: 250px;
   width: 650px;
   max-width: 100%;
 }
@@ -437,6 +437,9 @@ li {
   margin-top: 8em;
   max-width: 100%;
   
+}
+#boxes p{
+  font-size:13px;
 }
 #imageDisplay img {
   height: 150px;
@@ -495,7 +498,7 @@ main {
   grid-template-rows: 3vh auto 1fr -webkit-min-content auto 0.5vh; */
   grid-template-columns: minmax(10vw, 40vw) max-content min-content;
   grid-template-rows: 3vh auto 1fr min-content auto 0.5vh;
-  height: 37vh;
+  height: 47vh;
 }
 
 .main h1 {
@@ -550,7 +553,20 @@ color: rgba(0, 174, 255, 0.918);
 .certs:hover {
 transform: scale(2.1);
 }
+@media (min-width:576px){
 
+
+.card-deck .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0;
+  
+}
+}
 @media (min-width: 768px){
   .container-1 {
     display: grid;
@@ -605,19 +621,29 @@ transform: scale(2.1);
 #profileDisplay {
   font-size: 22px;
 }
-}
 
-@media (min-width: 1024px){
-
-  
- 
-  /* .main h1 span:nth-of-type(1) {
-   
-    font-size: 22vw;
+@keyframes myanimation {
+  0% {
+    left: calc(50% - 100px);
   }
-  .main h1 span:nth-of-type(2) {
-   
-    font-size: 22vw;
-  } */
 
+  100% {
+    background-color: rgb(243, 236, 236);
+    left: calc(50% + 115px);
+    border-radius: 50% 50% 50% 0;
+    height: 150px;
+    width: 150px;
+    top: -100px;
+  }
 }
+/* .card-deck .card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0;
+} */
+}
+
