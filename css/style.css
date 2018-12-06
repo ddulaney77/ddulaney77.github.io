@@ -462,14 +462,14 @@ li {
   font-size: 22px;
 }
 
-#accordion {
+#accordion, #accordion1, #accordion2 {
   font-size: 22px;
   font-weight: 100;
   letter-spacing: 0.07rem;
   line-height: 1.6em;
 }
 
-#accordion h5 {
+#accordion h5, #accordion1 h5, #accordion2 h5 {
   font-size: 30px;
   font-weight: 200;
   letter-spacing: 0.05rem;
