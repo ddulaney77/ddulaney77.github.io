@@ -12,6 +12,9 @@ images[3] = "img/digitalLong.png";
 images[4] = "img/wordPressLong.png";
 images[5] = "img/dataTrack.png";
 images[6] = "img/excell.png";
+images[7] = "img/ux.png";
+
+
 // Change Image
 function changeImg() {
   document.slide.src = images[i];
