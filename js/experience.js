@@ -2,17 +2,16 @@
 
 var i = 0; // Start point
 var images = [];
-var time = 4000;
+var time = 3000;
 
 // Image List
-images[0] = "img/reactLong1.png";
-images[1] = "img/webLong.png";
-images[2] = "img/jsLong.png";
-images[3] = "img/digitalLong.png";
+images[0] = "img/jsLong.png";
+images[1] = "img/reactLong1.png";
+images[2] = "img/uxLong.png";
+images[3] = "img/webLong.png";
 images[4] = "img/wordPressLong.png";
-images[5] = "img/dataTrack.png";
-images[6] = "img/excell.png";
-images[7] = "img/ux.png";
+images[5] = "img/digitalLong.png";
+
 
 
 // Change Image
